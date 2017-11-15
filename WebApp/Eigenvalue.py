@@ -22,6 +22,7 @@ class Eigenvalue(object):
             self.gray_Freq.append(0)
 
     def run(self):
+        self.gray_average = 0
         self.tran_IMgrad()
         self.cal_IMentropy()
         self.cal_IMenergy()

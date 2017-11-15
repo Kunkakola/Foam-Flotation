@@ -7,7 +7,6 @@
 
 import os
 from flask import Flask
-import cv2
 import logging
 from logging.handlers import RotatingFileHandler
 
